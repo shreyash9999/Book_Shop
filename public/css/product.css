@@ -1,0 +1,59 @@
+.product-form{
+    width: 20rem;
+    max-width: 90%;
+    margin:auto;            
+}
+.form-control{
+    margin: 1rem 0;
+}
+
+.form-control label,
+.form-control input{
+    display:block;
+    width: 100%;
+
+}
+
+.form-control input{
+    border: 1px solid #dbc441 ;
+    font:inherit;
+    border-radius: 2px;
+}
+
+button{
+    cursor: pointer;
+    font: inherit;
+    border: 1px solid #dbc441;
+    border-radius: 3px;
+}
+button:hover,
+button:active{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+}
+
+.product-item {
+    width: 20rem;
+    max-width: 95%;
+}
+
+.product__title {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.product__price {
+    text-align: center;
+    color: #4d4d4d;
+    margin-bottom: 0.5rem;
+}
+
+.product__description {
+    text-align: center;
+}
